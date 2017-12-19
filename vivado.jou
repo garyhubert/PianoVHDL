@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 29 09:35:19 2017
+# Process ID: 8336
+# Log file: H:/ProjetVHDL/Projet_Piano/vivado.log
+# Journal file: H:/ProjetVHDL/Projet_Piano\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/ProjetVHDL/Projet_Piano/Projet_Piano.xpr
+close [ open H:/ProjetVHDL/Projet_Piano/Projet_Piano.srcs/sources_1/new/generator.vhd w ]
+add_files H:/ProjetVHDL/Projet_Piano/Projet_Piano.srcs/sources_1/new/generator.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top generator [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property simulator_language VHDL [current_project]
+launch_simulation
+remove_files H:/ProjetVHDL/Projet_Piano/Projet_Piano.srcs/sources_1/new/diviseur_f.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
